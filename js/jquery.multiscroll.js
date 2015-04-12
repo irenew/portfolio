@@ -96,12 +96,25 @@
 			nav.addClass(options.navigationPosition);
 		}
 
-		$('.ms-right, .ms-left').css({
-			'width': '50%',
-			'position': 'absolute',
-			'height': '100%',
-			'-ms-touch-action': 'none'
-		});
+		if (document.documentElement.clientWidth > 768) {
+			$('.ms-right, .ms-left').css({
+				'width': '50%',
+				'position': 'absolute',
+				'height': '100%',
+				'-ms-touch-action': 'none'
+			});
+		}
+
+		if (document.documentElement.clientWidth <= 768) {
+			$('.ms-right, .ms-left').css({
+				'width': '100%',
+				'position': 'absolute',
+				'height': '50%',
+				'-ms-touch-action': 'none'
+			});
+		}
+
+
 
 		$('.ms-right').css({
 			'right': '1px', //http://stackoverflow.com/questions/23675457/chrome-and-opera-creating-small-padding-when-using-displaytable
@@ -330,6 +343,23 @@
 		 * When resizing is finished, we adjust the slides sizes and positions
 		 */
 		function doneResizing() {
+			if (document.documentElement.clientWidth < 768) {
+				$('.ms-right, .ms-left').css({
+					'width': '100%',
+					'position': 'absolute',
+					'height': '50%',
+					'-ms-touch-action': 'none'
+				});
+			}
+			if (document.documentElement.clientWidth > 768) {
+				$('.ms-right, .ms-left').css({
+					'width': '50%',
+					'position': 'absolute',
+					'height': '100%',
+					'-ms-touch-action': 'none'
+				});
+			}
+
 			windowHeight = $(window).height();
 			$('.ms-tableCell').each(function() {
 				$(this).css({ height: getTableHeight($(this).parent()) });

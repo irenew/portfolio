@@ -8,9 +8,16 @@
 	<title> /  W </title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
+
+	<!-- STYLE LINK FOR FOR BUTTON -->
+
+
+	<link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/vicons-font.css" type="text/css" media="screen">
 	<!-- SCRIPT FOR MULTSCROLL -->
 
 	<link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
@@ -23,11 +30,11 @@
 	<script type="text/javascript">
 	 $(document).ready(function() {
             $('#myContainer').multiscroll({
-            	sectionsColor: ['#B8DDD4', '#F58F82', '#52C4C0', '#CECECE'],
-            	anchors: ['first', 'second', 'third', 'fourth'],
+            	sectionsColor: ['#B8DDD4', '#52C4C0', '#F58F82','#7988C3' ,'#EDE0AA', '#CECECE'],
+            	anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth'],
             	menu: '#menu',
             	navigation: true,
-            	navigationTooltips: ['One', 'Two', 'Three', 'Four'],
+            	navigationTooltips: ['Intro', 'Beedie', 'Conversion','Swatch','YV', 'About'],
             	loopBottom: true,
             	loopTop: true
             });
@@ -65,16 +72,23 @@
 		</div>
 
 		<div class="ms-section" id="left2">
-			<h1>Left 2 </h1>
-			<img src="img/Conversion/Globe_02.png">
+
+			<img src="img/Conversion/Globe_02.png" height="100%">
 		</div>
 
 		<div class="ms-section" id="left3">
-			<h1>Left 3</h1>
+			<img src="img/Beedie/beedie_tablet.png" height="100%">
 		</div>
 			<div class="ms-section" id="left4">
 			<h1>Left 4</h1>
 		</div>
+		<div class="ms-section" id="left5">
+		<h1>Left 5</h1>
+		</div>
+		<div class="ms-section" id="left6">
+			<img src="img/About/image2.jpeg" height="100%" opacity="0.5">
+		</div>
+
 	</div>
 
 	<div class="ms-right">
@@ -83,7 +97,18 @@
 		</div>
 
 		<div class="ms-section" id="right2">
-			<h1>Right 2</h1>
+			<div class="worktitle"><h1>Currency Globe</h1><div>
+			<div class="workcontent">
+
+			<p>A mobile application for Nexus 5 that utlizes API to retreive real-time update of conversion rate,
+				and an interactive 3D globe with country touchpoints to change the user experience of a conventional currency converter.</p>
+			<p>Built using Angular, Three.js, IndexedDB, Sklad, HammerJS, D3.js, and Money.js</p>
+
+					<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+						<span>View Project</span>
+						</button>
+
+			</div>
 		</div>
 
 		<div class="ms-section" id="right3">
@@ -92,6 +117,22 @@
 		<div class="ms-section" id="right4">
 			<h1>Right 4</h1>
 		</div>
+		<div class="ms-section" id="right5">
+			<h1>Right 5</h1>
+
+
+					<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+						<span>View Project</span>
+						</button>
+
+
+
+		</div>
+		<div class="ms-section" id="right6">
+			<h1>Right 6</h1>
+		</div>
+
+
 	</div>
 </div>
 
