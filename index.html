@@ -30,11 +30,11 @@
 	<script type="text/javascript">
 	 $(document).ready(function() {
             $('#myContainer').multiscroll({
-            	sectionsColor: ['#B8DDD4', '#52C4C0', '#F58F82','#7988C3' ,'#EDE0AA', '#CECECE'],
-            	anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth'],
+            	sectionsColor: ['#B8DDD4', '#52C4C0', '#F58F82','#7988C3' ,'#EDE0AA'],
+            	anchors: ['first', 'second', 'third', 'fourth', 'fifth'],
             	menu: '#menu',
             	navigation: true,
-            	navigationTooltips: ['Intro', 'Beedie', 'Conversion','Swatch','YV', 'About'],
+            	navigationTooltips: ['Intro', 'Conversion', 'Beedie','Swatch','About'],
             	loopBottom: true,
             	loopTop: true
             });
@@ -47,8 +47,9 @@
 	<div class="header">
 		<div id="logo">
 			<h2> / w </h2>
+			<!-- <span id="descp">
 			<p>developer <strong>x</strong> <em>designer</em></p>
-
+		</span> -->
 		</div>
 
 	</div>
@@ -60,6 +61,7 @@
 		<li data-menuanchor="second"><a href="#second">Second slide</a></li>
 		<li data-menuanchor="third"><a href="#third">Third slide</a></li>
 		<li data-menuanchor="fourth"><a href="#fourth">Fourth slide</a></li>
+		<li data-menuanchor="fourth"><a href="#fourth">Fifth slide</a></li>
 	</ul>
 <!-- Content begins  -->
 
@@ -68,51 +70,114 @@
 
 	<div class="ms-left">
 		<div class="ms-section" id="left1">
-			<h1>Left 1</h1>
+			<div class="worknum">
+				<h1>/ hello there</h1>
+				<h2>My name is Irene Wang</h2>
+				<h2>and I love to Code and DESIGN</h2>
+				<h2>for digital products</h2>
+
+			</div>
 		</div>
 
 		<div class="ms-section" id="left2">
+			<div class="worknum">
+				<h1>/ 01</h1>
 
+		</div>
 			<img src="img/Conversion/Globe_02.png" height="100%">
 		</div>
 
 		<div class="ms-section" id="left3">
+			<div class="worknum">
+				<h1>/ 02</h1>
+
+		</div>
 			<img src="img/Beedie/beedie_tablet.png" height="100%">
 		</div>
 			<div class="ms-section" id="left4">
-			<h1>Left 4</h1>
+				<div class="worknum">
+					<h1>/ 03</h1>
+
+			</div>
+			<img src="img/Swatch/landing.png" height="100%">
 		</div>
 		<div class="ms-section" id="left5">
 		<h1>Left 5</h1>
 		</div>
-		<div class="ms-section" id="left6">
-			<img src="img/About/image2.jpeg" height="100%" opacity="0.5">
-		</div>
+		<!-- <div class="ms-section" id="left6">
+			<img src="img/About/image2.jpeg" height="100%">
+		</div> -->
 
 	</div>
 
 	<div class="ms-right">
 		<div class="ms-section" id="right1">
-			<h1>Right 1</h1>
+			<div class="worktitle">
+				<h1>deveoper x designer</h1>
+
+		</div>
+			<div class="grid-18">
+			<div class="grid-6">
+				<div class="imgWrap">
+				<img src="img/Conversion/preview.png" width="100%">
+				<a href="#second">
+					<div class="imgTitle">
+					<button class="button button--winona button--border-thick button--round-s
+					button--text-upper button--size-s button--text-thick" data-text="View Project">
+					<span>View Project</span>
+					</button>
+				</div></a>
+			</div>
+
+					<div class="imgWrap">
+						<a href="#third"><img src="img/Beedie/preview.png" width="100%"></a>
+						<a href="#third">
+							<div class="imgTitle">
+							<button class="button button--winona button--border-thick button--round-s
+							button--text-upper button--size-s button--text-thick" data-text="View Project">
+							<span>View Project</span>
+							</button>
+						</div></a>
+					</div>
+				</div>
+			<div class="grid-6">
+				<div class="imgWrap">
+				<a href="#fourth"><img src="img/Swatch/preview.png" width="100%"></a>
+				<a href="#fourth">
+					<div class="imgTitle">
+					<button class="button button--winona button--border-thick button--round-s
+					button--text-upper button--size-s button--text-thick" data-text="View Project">
+					<span>View Project</span>
+					</button>
+				</div></a>
+			</div>
+			<div class="imgWrap">
+					<a href="#fifth"><img src="img/About/preview.png" width="100%"></a>
+					<a href="#fifth">
+						<div class="imgTitle">
+						<button class="button button--winona button--border-thick button--round-s
+						button--text-upper button--size-s button--text-thick" data-text="About Me">
+						<span>About Me</span>
+						</button>
+					</div></a>
+				</div>
+				</div>
+		</div>
 		</div>
 
 		<div class="ms-section" id="right2">
 			<div class="worktitle">
-				<h1>Currency Globe</h1>
+				<h1>Conversion Globe</h1>
 
-				<!-- <button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
-					<span>View Project</span>
-					</button>
-			 -->
-
-				<div>
+		</div>
 			<div class="workcontent">
 
-			<p>A mobile application for Nexus 5 that utlizes API to retreive real-time update of conversion rate,
+			<p>A mobile application for Nexus 5 that utlizes OpenExchange API to retreive real-time update of conversion rate,
 				and an interactive 3D globe with country touchpoints to change the user experience of a conventional currency converter.</p>
 			<p>Built using Angular, Three.js, IndexedDB, Sklad, HammerJS, D3.js, and Money.js</p>
 				<div class="btn">
-					<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+					<button class="button button--winona button--border-thick button--round-s
+					button--text-upper button--size-s button--text-thick" data-text="View Project">
 						<span>View Project</span>
 						</button>
 					</div>
@@ -121,10 +186,44 @@
 		</div>
 
 		<div class="ms-section" id="right3">
-			<h1>Right 3</h1>
+			<div class="worktitle">
+				<h1>SFU Beedie + EXCT ED</h1>
+
+
+
+		</div>
+			<div class="workcontent">
+
+
+
+				<p>Transform all 500 websites that is under SFU Beedie into the new modern
+					branding design and creating templates for respnosive design adoption</p>
+					<span class="textMiddle"><p> + </p></p>
+					<p>Working EXEC ED to create a new set of branding, including 11 templates, and 28 web pages.</p>
+				<div class="btn">
+					<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+						<span>View Project</span>
+						</button>
+					</div>
+
+			</div>
 		</div>
 		<div class="ms-section" id="right4">
-			<h1>Right 4</h1>
+			<div class="worktitle">
+				<h1>Swatch Experience Design</h1>
+
+		</div>
+			<div class="workcontent">
+
+			<p>A desktop and mobile website to engage fashionista by inspiring them with combinations of fashion and Swatch watch images, allowing them to explore fashion and watch based on location and style.</p>
+				<p>It creates a seamless experience from digital to physical with emphasis on exploration, storytelling and self expression.</p>
+				<div class="btn">
+					<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+						<span>View Project</span>
+						</button>
+					</div>
+
+			</div>
 		</div>
 		<div class="ms-section" id="right5">
 			<h1>Right 5</h1>
@@ -137,9 +236,9 @@
 
 
 		</div>
-		<div class="ms-section" id="right6">
+		<!-- <div class="ms-section" id="right6">
 			<h1>Right 6</h1>
-		</div>
+		</div> -->
 
 
 	</div>

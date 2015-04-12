@@ -17,6 +17,19 @@ ol,ul {
 
 .header{
   position:absolute;
+  top:48px;
+  left:45%;
+  margin-left:auto;
+  margin-right:auto;
+  width:10%;
+  z-index:5;
+  text-align: center;
+  vertical-align:middle;
+  /*background-color:#fff;*/
+  height:7%;
+  padding:1em;
+  border:1px solid #fff;
+  color:#fff;
 
 }
 #left1{
@@ -40,38 +53,109 @@ background-size: cover;
 #left4{
 
 }
+#right1 .grid-18{
+  margin-top:10%;
+  margin-left:22%;
+
+}
+#right2{
+background:url('../img/Conversion/mobile_01.png');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#right3{
+  background:url('../img/Beedie/mobile_01.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#right4{
+  background:url('../img/Swatch/rightmobile_01.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 
 
 
 .workcontent{
-  padding:6em 0;
+  padding:8em 4em 2em 4em;
   color:#fff;
   width:90%;
+
+
 }
 
 .worktitle{
-  background-color:#fff;
+  /*background-color:#fff;*/
   width:100%;
-  height:25%;
+  height:30%;
   position:absolute;
   top:0;
-  padding:2em 4em;
+  padding:3em 4em;
+
+
 
 }
 
-.worktitle h1{
-  border-top:1px solid #333;
+.worknum{
+
+  width:100%;
+  height:18%;
+  position:absolute;
+  top:0;
+  padding:3em 4em;
+
+
+}
+.worknum h1{
+  border-top:1px solid #fff;
   padding-top:2em;
   text-transform:uppercase;
   letter-spacing: 5px;
   font-size:1em;
+  color:#fff;
+
+
+
+}
+
+.worknum h2{
+
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  color:#fff;
+
 
 
 }
 
 
 
-.worktitle p{
+.worktitle h1{
+  border-top:1px solid #fff;
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  text-align:right;
+  color:#fff;
+
+}
+
+
+
+.workcontent p{
   line-height:150%;
   letter-spacing: 1px;
   margin-top:1em;
@@ -91,7 +175,34 @@ background-size: cover;
   color:#fff;
 }
 
+.textMiddle{
+  text-align:center;
+}
 
+
+.imgWrap{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
+.imgTitle{
+  position:absolute;
+  top:30%;
+  left:0;
+  background-color: ##52C4C0;
+  width:100%;
+  height:80px;
+  color:#fff;
+  visibility:hidden;
+  opacity:0;
+  z-index:1;
+}
+
+.imgWrap:hover .imgTitle{
+  visibility:visible;
+  opacity:1;
+}
 
 @media screen and (max-width: 768px) {
 .ms-right{
@@ -104,14 +215,61 @@ background-size: cover;
 }
 
 /* Tablet */
-@media screen and (max-width: 1024px) {
-.ms-right{
-  width:100%;
-}
-.ms-left{
-  width:100%;
-}
+@media screen and (max-width: 768px) {
+    .ms-right{
+      width:100%;
+    }
+    .ms-left{
+      width:100%;
+    }
+    #descp{
+      display:none;
+    }
 
+    .header{
+      position:absolute;
+      top:3px;
+      left:40%;
+      width:18%;
+      z-index:5;
+      text-align: center;
+      vertical-align:middle;
+      height:7%;
+      padding:1em;
+      border:1px solid #fff;
+      color:#fff;
+      font-size:0.5m;
+
+    }
+    #right1{
+
+    }
+
+    #right2{
+    background:url('../img/Conversion/mobile_01.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    #right3{
+      background:url('../img/Beedie/mobile_01.png');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+    }
+
+    #right4{
+      background:url('../img/Swatch/rightmobile_01.png');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+    }
 }
 
 
@@ -126,7 +284,38 @@ background-size: cover;
     width:100%;
   }
 
+  .header{
+    position:absolute;
+    top:3px;
+    left:40%;
 
+    width:18%;
+    z-index:5;
+    text-align: center;
+    vertical-align:middle;
+
+    height:7%;
+    padding:1em;
+    border:1px solid #fff;
+    color:#fff;
+    font-size:0.5m;
+
+  }
+
+  .worktitle{
+
+    width:100%;
+    height:20%;
+    position:absolute;
+    top:0;
+    padding:3em 4em;
+
+
+
+  }
+  #descp{
+    display:none;
+  }
 
 
 }
