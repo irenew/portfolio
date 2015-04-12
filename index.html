@@ -11,13 +11,33 @@
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
+	<!-- SCRIPT FOR MULTSCROLL -->
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="examples.css" />		 -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="js/jquery.multiscroll.js"></script>
 
 
+	<script type="text/javascript">
+	 $(document).ready(function() {
+            $('#myContainer').multiscroll({
+            	sectionsColor: ['#B8DDD4', '#F58F82', '#52C4C0', '#CECECE'],
+            	anchors: ['first', 'second', 'third', 'fourth'],
+            	menu: '#menu',
+            	navigation: true,
+            	navigationTooltips: ['One', 'Two', 'Three', 'Four'],
+            	loopBottom: true,
+            	loopTop: true
+            });
+        });
+    </script>
 </head>
 
 <body>
 <!-- Navigation & Menu -->
-	<div class="menu">
+	<div class="header">
 		<div id="logo">
 			<h2> / w </h2>
 			<p>developer <strong>x</strong> <em>designer</em></p>
@@ -25,10 +45,55 @@
 		</div>
 
 	</div>
+
+
+	<!-- NAV FOR PAGES -->
+	<ul id="menu">
+		<li data-menuanchor="first"><a href="#first">First slide</a></li>
+		<li data-menuanchor="second"><a href="#second">Second slide</a></li>
+		<li data-menuanchor="third"><a href="#third">Third slide</a></li>
+		<li data-menuanchor="fourth"><a href="#fourth">Fourth slide</a></li>
+	</ul>
 <!-- Content begins  -->
 
-	
 
+<div id="myContainer">
+
+	<div class="ms-left">
+		<div class="ms-section" id="left1">
+			<h1>Left 1</h1>
+		</div>
+
+		<div class="ms-section" id="left2">
+			<h1>Left 2 </h1>
+			<img src="img/Conversion/Globe_02.png">
+		</div>
+
+		<div class="ms-section" id="left3">
+			<h1>Left 3</h1>
+		</div>
+			<div class="ms-section" id="left4">
+			<h1>Left 4</h1>
+		</div>
+	</div>
+
+	<div class="ms-right">
+		<div class="ms-section" id="right1">
+			<h1>Right 1</h1>
+		</div>
+
+		<div class="ms-section" id="right2">
+			<h1>Right 2</h1>
+		</div>
+
+		<div class="ms-section" id="right3">
+			<h1>Right 3</h1>
+		</div>
+		<div class="ms-section" id="right4">
+			<h1>Right 4</h1>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
