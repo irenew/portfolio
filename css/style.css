@@ -44,8 +44,9 @@ background-size: cover;
 
 
 .workcontent{
-  padding:5em;
+  padding:6em 0;
   color:#fff;
+  width:90%;
 }
 
 .worktitle{
@@ -54,18 +55,54 @@ background-size: cover;
   height:25%;
   position:absolute;
   top:0;
-  padding:2em 2em;
+  padding:2em 4em;
+
 }
 
 .worktitle h1{
   border-top:1px solid #333;
-  padding-top:1em;
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+
 
 }
 
+
+
+.worktitle p{
+  line-height:150%;
+  letter-spacing: 1px;
+  margin-top:1em;
+  font-weight:200;
+}
+.btn{
+  margin-top:20%;
+}
+
+.btn button{
+
+  bottom:10%;
+  float:right;
+
+}
 #left2 .workcontent p{
   color:#fff;
 }
+
+
+
+@media screen and (max-width: 768px) {
+.ms-right{
+  width:100%;
+}
+.ms-left{
+  width:100%;
+}
+
+}
+
 /* Tablet */
 @media screen and (max-width: 1024px) {
 .ms-right{
