@@ -1,6 +1,6 @@
 body{
   height:100%;
-  background-color:#7988C3;
+  background-color:#52C4C0;
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -189,7 +189,7 @@ p{
 
 .projectGif img{
   text-align:center;
-  
+
 }
 .contentOne{
   width:100%;
@@ -216,6 +216,8 @@ p{
 .ita{
   font-style: italic;
   font-size:0.5em;
+  padding-bottom:2em;
+  margin-bottom:2em;
 }
 
 #gif{
