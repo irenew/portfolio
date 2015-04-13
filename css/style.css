@@ -66,11 +66,19 @@ background-size: cover;
 #left4 img{
   height:100%;
 }
+
+
+#left5 h1{
+  padding:1em;
+  color:#333;
+}
 #right1 .grid-18{
   margin-top:10%;
   margin-left:22%;
 
 }
+
+
 #right2{
 background:url('../img/Conversion/mobile_01.png');
 -webkit-background-size: cover;
@@ -96,7 +104,9 @@ background-size: cover;
   background-size: cover;
 
 }
-
+#right5 h2{
+  line-height:150%;
+}
 
 
 .workcontent{
@@ -203,7 +213,7 @@ background-size: cover;
   position:absolute;
   top:30%;
   left:0;
-  background-color: #52C4C0;
+  /*background-color: #52C4C0;*/
   width:100%;
   height:80px;
   color:#fff;
