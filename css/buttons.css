@@ -140,3 +140,25 @@
 	-webkit-transform: translate3d(0, -25%, 0);
 	transform: translate3d(0, -25%, 0);
 }
+
+@media screen and (max-width: 480px) {
+
+.button {
+	float: right;
+	min-width:80px;
+	max-width: 150px;
+	display: block;
+	margin: 1em;
+	padding: 0.5em 1em;
+	border: 2px solid;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	font-size:0.5em;
+}
+
+}

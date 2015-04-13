@@ -464,6 +464,12 @@ margin:0;
       opacity:0;
       display:none;
     }
+    .worknum{
+      display:none;
+    }
+    .worktitle{
+      display:none;
+    }
 
 }
 
@@ -477,7 +483,7 @@ margin:0;
   .header{
     position:absolute;
     top:3px;
-    left:40%;
+    left:35%;
     width:129px;
     height:46px;
     z-index:5;
