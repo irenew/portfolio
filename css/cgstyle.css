@@ -284,6 +284,20 @@ button{
   color:#fff;
 }
 
+.contentframe{
+  background-color:#fff;
+}
+.contentframe .grid-18{
+  background-color:#eee;
+}
+.contentframe img{
+  width:60%;
+}
+
+.contentframe .projectGif{
+  padding:0;
+}
+
 .visible {
 float:right;
 font-weight:600;

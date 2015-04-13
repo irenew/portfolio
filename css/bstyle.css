@@ -537,6 +537,12 @@ margin:0;
     height:400px;
     padding:0;
   }
+  .worknum{
+    display:none;
+  }
+  .worktitle{
+    display:none;
+  }
 
 
 
