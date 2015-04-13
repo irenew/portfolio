@@ -48,16 +48,45 @@ p{
   left:45%;
   margin-left:auto;
   margin-right:auto;
-  width:10%;
+  width:129px;
+  height:49px;
   z-index:5;
   text-align: center;
   vertical-align:middle;
-  /*background-color:#fff;*/
-  height:7%;
-  padding:1em;
   border:1px solid #fff;
   color:#fff;
 
+}
+
+.header h2{
+  font-size:0.8em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+}
+
+/*logo wrap*/
+.logoWrap{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
+.logoTitle{
+  position:absolute;
+  top:0px;
+  left:0;
+  background-color: ##52C4C0;
+  width:100%;
+  height:80px;
+  color:#fff;
+  visibility:hidden;
+  opacity:0;
+
+}
+
+.logoWrap:hover .logoTitle{
+  visibility:visible;
+  opacity:0.5;
 }
 
 
@@ -183,8 +212,8 @@ p{
 .projectGif{
   width:100%;
   height:100%;
-  padding-top:10%;
-  padding-bottom:30%;
+  padding-top:5%;
+  padding-bottom:20%;
   text-align:center;
 }
 
@@ -199,7 +228,7 @@ p{
 }
 
 .contentTwo{
-  margin-top:10%;
+  margin-top:15%;
   clear:both;
   height:auto;
   background:url('../img/Swatch/rightmobile_01.png');
@@ -211,7 +240,10 @@ p{
 }
 
 #writeup{
-  padding:2em;
+  padding:4em;
+  height:700px;
+
+
   /*border-top:1px solid #fff;*/
 }
 .ita{
@@ -221,7 +253,7 @@ p{
 
 #gif{
   background-color:#fff;
-  padding:1em;
+  height:800px;
   color:#333;
 
 }
@@ -229,6 +261,106 @@ p{
 #gif h1{
   color:#333;
 }
+
+#infotwo #gif{
+  height:750px;
+  padding:0;
+}
+#infotwo{
+  /*border-top:1px solid #fff;*/
+  background-color:#79151C;
+}
+
+#infotwo .projectGif{
+  width:100%;
+  height:100%;
+  padding-top:10%;
+  padding-bottom:20%;
+  text-align:center;
+}
+
+#infotwo #writeup{
+  background-color:#79151C;
+  height:750px;
+}
+.grid-6{
+  text-align:center;
+  vertical-align: middle;
+  /*height:350px;*/
+}
+
+.grid-6 h1{
+  text-align:center;
+  vertical-align: middle;
+  padding-top:40%;
+}
+
+
+
+.visible {
+float:right;
+font-weight:600;
+overflow:hidden;
+height:40px;
+}
+
+.content p {
+display:inline;
+float:right;
+margin:0;
+}
+
+.content ul {
+margin-top:0;
+padding-left:110px;
+text-align:right;
+list-style:none;
+animation:6s linear 0s normal none infinite change;
+-webkit-animation:6s linear 0s normal none infinite change;
+-moz-animation:6s linear 0s normal none infinite change;
+-o-animation:6s linear 0s normal none infinite change;
+}
+
+.content ul li {
+line-height:40px;
+margin:0;
+}
+
+@-webkit-keyframes opacity {
+0%   {opacity:0;}
+50%  {opacity:1;}
+100% {opacity:0;}
+}
+@keyframes opacity {
+0%   {opacity:0;}
+50%  {opacity:1;}
+100% {opacity:0;}
+}
+
+@-webkit-keyframes change {
+0%   {margin-top:0;}
+15%  {margin-top:0;}
+25%  {margin-top:-40px;}
+40%  {margin-top:-40px;}
+50%  {margin-top:-80px;}
+65%  {margin-top:-80px;}
+75%  {margin-top:-40px;}
+85%  {margin-top:-40px;}
+100% {margin-top:0;}
+}
+@keyframes change {
+0%   {margin-top:0;}
+15%  {margin-top:0;}
+25%  {margin-top:-40px;}
+40%  {margin-top:-40px;}
+50%  {margin-top:-80px;}
+65%  {margin-top:-80px;}
+75%  {margin-top:-40px;}
+85%  {margin-top:-40px;}
+100% {margin-top:0;}
+}
+
+
 /* Tablet */
 @media screen and (max-width: 768px) {
 
@@ -240,18 +372,18 @@ p{
       position:absolute;
       top:3px;
       left:40%;
-      width:18%;
+      width:129px;
+      height:46px;
       z-index:5;
       text-align: center;
       vertical-align:middle;
-      height:7%;
       padding:1em;
       border:1px solid #fff;
       color:#fff;
       font-size:0.5m;
 
     }
-    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5,  .grid-7, .grid-8,
     .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
     .grid-16, .grid-17, .grid-18{
       width:100%;
@@ -261,6 +393,27 @@ p{
       height:100%;
       padding-top:5%;
       padding-bottom:5%;
+    }
+
+    #gif{
+      background-color:#fff;
+      height:600px;
+      color:#333;
+
+    }
+    #infotwo #gif{
+      height:600px;
+      padding:0;
+    }
+    .logoTitle{
+      display:none;
+
+    }
+
+    .logoWrap:hover .logoTitle{
+      visibility:hidden;
+      opacity:0;
+      display:none;
     }
 
 }
@@ -276,13 +429,11 @@ p{
     position:absolute;
     top:3px;
     left:40%;
-
-    width:18%;
+    width:129px;
+    height:46px;
     z-index:5;
     text-align: center;
     vertical-align:middle;
-
-    height:7%;
     padding:1em;
     border:1px solid #fff;
     color:#fff;
@@ -300,6 +451,22 @@ p{
 
 
 
+  }
+  .projectGif{
+    width:100%;
+    height:100%;
+    padding-top:10%;
+    padding-bottom:5%;
+  }
+  #gif{
+    background-color:#fff;
+    height:500px;
+    color:#333;
+
+  }
+  #infotwo #gif{
+    height:500px;
+    padding:0;
   }
 
 

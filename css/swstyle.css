@@ -183,7 +183,7 @@ p{
   width:100%;
   height:100%;
   padding-top:10%;
-  padding-bottom:30%;
+  padding-bottom:10%;
   text-align:center;
 }
 
@@ -210,7 +210,7 @@ p{
 }
 
 #writeup{
-  padding:2em;
+  padding:4em;
   /*border-top:1px solid #fff;*/
 }
 .ita{
@@ -228,6 +228,84 @@ p{
 #gif h1{
   color:#333;
 }
+
+.grid-6{
+  text-align:center;
+  vertical-align: middle;
+  height:350px;
+}
+
+.grid-6 h1{
+  text-align:center;
+  vertical-align: middle;
+  padding-top:40%;
+}
+
+#smallDetails{
+
+  margin-bottom:3em;
+}
+#infotwo #gif{
+  height:550px;
+  padding:0;
+}
+#infotwo .projectGif{
+  width:100%;
+  height:100%;
+  padding-top:10%;
+  padding-bottom:20%;
+  text-align:center;
+}
+#infotwo{
+  background-color:#454d9d;
+}
+#infotwo #writeup{
+  background-color:#454d9d;
+  height:550px;
+}
+
+
+
+#infothree #gif{
+  height:550px;
+  padding:0;
+}
+#infothree .projectGif{
+  width:100%;
+  height:100%;
+  padding-top:10%;
+  padding-bottom:20%;
+  text-align:center;
+}
+
+#infothree #writeup{
+
+  height:550px;
+}
+
+#infofour #gif{
+  height:550px;
+  padding:0;
+}
+#infofour .projectGif{
+  width:100%;
+  height:100%;
+  padding-top:10%;
+  padding-bottom:20%;
+  text-align:center;
+}
+#infofour{
+  background-color:#454d9d;
+}
+#infofour #writeup{
+  background-color:#454d9d;
+  height:550px;
+}
+
+.wframe{
+  background-color:#fff;
+}
+
 /* Tablet */
 @media screen and (max-width: 768px) {
 
@@ -250,10 +328,11 @@ p{
       font-size:0.5m;
 
     }
-    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-7, .grid-8,
     .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
     .grid-16, .grid-17, .grid-18{
       width:100%;
+      clear:both;
     }
     .projectGif{
       width:100%;

@@ -198,7 +198,7 @@ p{
 }
 
 .contentTwo{
-  margin-top:10%;
+  margin-top:15%;
   clear:both;
   height:auto;
   background:url('../img/Swatch/rightmobile_01.png');
@@ -212,6 +212,7 @@ p{
 #writeup{
   padding:2em;
   /*border-top:1px solid #fff;*/
+  height:800px;
 }
 .ita{
   font-style: italic;
@@ -227,12 +228,29 @@ p{
   background-color:#fff;
   padding:1em;
   color:#333;
+  height:800px;
 
 }
 
 #gif h1{
   color:#333;
 }
+
+.grid-6{
+  text-align:center;
+  vertical-align: middle;
+  /*height:350px;*/
+  background-color:#333;
+}
+
+.grid-6 h1{
+  text-align:center;
+  vertical-align: middle;
+  padding-top:40%;
+}
+
+
+
 /* Tablet */
 @media screen and (max-width: 768px) {
 
@@ -255,7 +273,7 @@ p{
       font-size:0.5m;
 
     }
-    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5,  .grid-7, .grid-8,
     .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
     .grid-16, .grid-17, .grid-18{
       width:100%;
