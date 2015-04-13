@@ -27,6 +27,10 @@ a:hover{
   color:#eee;
 }
 
+button:hover{
+  background-color:none;
+}
+
 h1{
   padding-top:2em;
   text-transform:uppercase;
@@ -75,7 +79,7 @@ p{
   position:absolute;
   top:0px;
   left:0;
-  background-color: #52C4C0;
+  /*background-color: #52C4C0;*/
   width:100%;
   height:80px;
   color:#fff;
@@ -194,7 +198,7 @@ p{
   position:absolute;
   top:30%;
   left:0;
-  background-color: #52C4C0;
+  /*background-color: #52C4C0;*/
   width:100%;
   height:80px;
   color:#fff;

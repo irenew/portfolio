@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
@@ -22,12 +22,28 @@
 
 <div class="header">
 	<a href="index.html">
-		<div id="logo">
-		<h2> / w </h2>
-		</div>
-	</a>
+		<div id="logo" class="logoWrap">
+		<div class="content">
+			<div class="visible">
 
+					<ul>
+						<li><h2>Code</h2></li>
+						<li><h2>Design</h2></li>
+						<li><h2>/ w </h2></li>
+
+
+					</ul>
+			</div>
+		</div>
+		<span class="logoTitle">
+		<img src="img/logo/logo.gif" width="128" alt="logo bg">
+	</span>
+	</div>
+</a>
 </div>
+
+
+
 <div class="grid-9 left">
 	<div class="worknum">
 		<h1>/ 03</h1>
@@ -54,7 +70,7 @@
 
 			<div class="projectGif">
 				<h1>/ Preview</h1>
-					<img src="img/Swatch/swatch.gif" width="80%">
+					<img src="img/Swatch/swatch.gif" alt="swatch project gif">
 				</div>
 
 
@@ -64,16 +80,16 @@
 				<h1>/ Swatch</h1>
 				<p>Digital Experience Design</p>
 				<div id="smallDetails">
-				<span class="ita">
-						<span class="grid-9">
+				<div class="ita">
+						<div class="grid-9">
 							<p>Team: <p>
 							<p>Eva Li / Irene Wang / Mason Lee / Samuel Wisjnu / Stephanie Taniguchi</p>
-						</span>
-					<span class="grid-9">
+						</div>
+					<div class="grid-9">
 						<p>Role:</p>
 						<p>Research, Business and Consumer Insights, Journey Frameworks, Customer Experience Modeling, UI designer</p>
-					</span>
-			</span>
+					</div>
+			</div>
 		</div>
 
 		<h1>What is it</h1>
@@ -83,12 +99,13 @@
 			from digital to physical with emphasis on exploration, storytelling and self expression.</p>
 
 
-			<a href="https://vimeo.com/114411188" target="_blank">
+
 						<button class="button button--winona button--border-thick button--round-s
-					button--text-upper button--size-s button--text-thick" data-text="Watch Full Video">
+					button--text-upper button--size-s button--text-thick" data-text="Watch Full Video"
+					onclick="location.href='https://vimeo.com/114411188'">
 						<span>Watch Full Video</span>
 					</button>
-			</a>
+
 
 		</div>
 	</div>
@@ -97,16 +114,16 @@
 
 	<div class="contentTwo" id="infotwo">
 
-		<div class="grid-9" id="gif">
+		<div class="grid-9" id="giftwo">
 
 			<div class="projectGif">
 
-					<img src="img/Swatch/targeted.png" width="100%">
+					<img src="img/Swatch/targeted.png" alt="targeted audience">
 				</div>
 
 		</div>
 		<div class="grid-9">
-			<div id="writeup">
+			<div id="writeuptwo">
 
 
 
@@ -131,16 +148,16 @@
 
 	<div class="contentTwo" id="infothree">
 
-		<div class="grid-9" id="gif">
+		<div class="grid-9" id="gifthree">
 
 			<div class="projectGif">
 
-					<img src="img/Swatch/businessproblem.png" width="100%">
+					<img src="img/Swatch/businessproblem.png" alt="targeted audience">
 				</div>
 
 		</div>
 		<div class="grid-9">
-			<div id="writeup">
+			<div id="writeupthree">
 
 				<h1>Business Problem</h1>
 				<p>Weak North American Market, Misguided Brand Perception &amp; Failure to Address of Age gap of young 20s-30s.</p>
@@ -152,12 +169,13 @@
 
 
 
-					<a href="https://www.dropbox.com/sh/nfccpxlw3k99vd5/AADE7NtTQ03q-7xe6ee2mmlYa/process_book2.pdf?dl=0" target="_blank">
+
 								<button class="button button--winona button--border-thick button--round-s
-							button--text-upper button--size-s button--text-thick" data-text="Process Book">
+							button--text-upper button--size-s button--text-thick" data-text="Process Book"
+							onclick="location.href='https://www.dropbox.com/sh/nfccpxlw3k99vd5/AADE7NtTQ03q-7xe6ee2mmlYa/process_book2.pdf?dl=0'">
 								<span>Process Book</span>
 							</button>
-					</a>
+
 
 
 		</div>
@@ -171,7 +189,7 @@
 
 			<div class="projectGif">
 
-				<img src="img/Swatch/mobile.png" width="80%">
+				<img src="img/Swatch/mobile.png" alt="mobile design">
 				</div>
 
 		</div>
@@ -181,18 +199,44 @@
 
 
 
-	</div>
 
 
 
 
 	<div class="grid-18">
 	<div class="grid-6">
-		<img src="img/About/others.png" width="100%">
+		<img src="img/About/others.png" alt="other project">
 	</div>
-	<div class="grid-6"><a href="globe.html"><img src="img/Conversion/Globe_square.png" width="100%"></a></div>
-	<div class="grid-6"><a href="beedie.html"><img src="img/Beedie/beedie_square.png" width="100%"></a></div>
-	</div>
+	<div class="grid-6">
+		<div class="imgWrap">
+
+					<img src="img/Conversion/Globe_square.png" alt="other project">
+					<div class="imgTitle">
+					<button class="button button--winona button--border-thick button--round-s
+					button--text-upper button--size-s button--text-thick" data-text="View Project"
+					onclick="location.href='globe.html'">
+					<span>View Project</span>
+					</button>
+				</div>
+
+				</div>
+			</div>
+	<div class="grid-6">
+		<div class="imgWrap">
+
+			<img src="img/Beedie/beedie_square.png" alt="other project">
+			<div class="imgTitle">
+			<button class="button button--winona button--border-thick button--round-s
+			button--text-upper button--size-s button--text-thick" data-text="View Project"
+			onclick="location.href='beedie.html'">
+			<span>View Project</span>
+			</button>
+		</div>
+
+		</div>
+			</div>
+</div>
+
 
 </body>
 </html>

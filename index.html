@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<!-- <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no"> -->
@@ -50,20 +50,20 @@
 	<div class="header">
 		<a href="#first">
 			<div id="logo" class="logoWrap">
-			<h2> <div class="content">
+		 <div class="content">
 				<div class="visible">
 
 						<ul>
-							<li>Code</li>
-							<li>Design</li>
-							<li>/ w</li>
+							<li><h2>Code</h2></li>
+							<li><h2>Design</h2></li>
+							<li><h2>/ w </h2></li>
 
 
 						</ul>
 				</div>
-			</div></h2>
+			</div>
 			<span class="logoTitle">
-			<img src="img/logo/logo.gif" width="98%">
+			<img src="img/logo/logo.gif" alt="logo bg" width="128">
 		</span>
 		</div>
 	</a>
@@ -95,11 +95,13 @@
 
 				<div id="scrollbtn">
 				<h1>
-					<a href="#second"><button class="button button--winona button--border-thick button--round-s
-				button--text-upper button--size-s button--text-thick" data-text="Scroll Down to View Work">
+				<button class="button button--winona button--border-thick button--round-s
+				button--text-upper button--size-s button--text-thick"
+				data-text="Scroll Down to View Work"
+				onclick="location.href='#second'">
 				<span>Scroll Down to View Work</span>
 			</button>
-		</a>
+
 			</h1>
 		</div>
 
@@ -111,7 +113,7 @@
 				<h1>/ 01</h1>
 
 		</div>
-			<img src="img/Conversion/Globe_02.png" height="100%">
+			<img src="img/Conversion/Globe_02.png" alt="mobile application">
 		</div>
 
 		<div class="ms-section" id="left3">
@@ -119,21 +121,19 @@
 				<h1>/ 02</h1>
 
 		</div>
-			<img src="img/Beedie/beedie_tablet.png" height="100%">
+			<img src="img/Beedie/beedie_tablet.png" alt="beedie website">
 		</div>
 			<div class="ms-section" id="left4">
 				<div class="worknum">
 					<h1>/ 03</h1>
 
 			</div>
-			<img src="img/Swatch/landing.png" height="100%">
+			<img src="img/Swatch/landing.png" alt="swatch project">
 		</div>
 		<div class="ms-section" id="left5">
 		<h1>Left 5</h1>
 		</div>
-		<!-- <div class="ms-section" id="left6">
-			<img src="img/About/image2.jpeg" height="100%">
-		</div> -->
+
 
 	</div>
 
@@ -148,47 +148,55 @@
 			<div class="grid-18">
 			<div class="grid-6">
 				<div class="imgWrap">
-				<img src="img/Conversion/preview.png" width="100%">
-				<a href="globe.html">
+					<a href="globe.html"><img src="img/Conversion/preview.png" alt="conversion preview"></a>
+
 					<div class="imgTitle">
 					<button class="button button--winona button--border-thick button--round-s
-					button--text-upper button--size-s button--text-thick" data-text="View Project">
+					button--text-upper button--size-s button--text-thick"
+					data-text="View Project"
+					onclick="location.href='globe.html'">
 					<span>View Project</span>
 					</button>
-				</div></a>
+				</div>
 			</div>
 
 					<div class="imgWrap">
-						<a href="#third"><img src="img/Beedie/preview.png" width="100%"></a>
-						<a href="#third">
+						<a href="beedie.html"><img src="img/Beedie/preview.png" alt="beedie preview"></a>
+
 							<div class="imgTitle">
 							<button class="button button--winona button--border-thick button--round-s
-							button--text-upper button--size-s button--text-thick" data-text="View Project">
+							button--text-upper button--size-s button--text-thick"
+							data-text="View Project"
+							onclick="location.href='beedie.html'">
 							<span>View Project</span>
 							</button>
-						</div></a>
+						</div>
 					</div>
 				</div>
 			<div class="grid-6">
 				<div class="imgWrap">
-				<a href="#fourth"><img src="img/Swatch/preview.png" width="100%"></a>
-				<a href="swatch.html">
+				<a href="swatch.html"><img src="img/Swatch/preview.png" alt="swatch preview"></a>
+
 					<div class="imgTitle">
 					<button class="button button--winona button--border-thick button--round-s
-					button--text-upper button--size-s button--text-thick" data-text="View Project">
+					button--text-upper button--size-s button--text-thick"
+					data-text="View Project"
+					onclick="location.href='swatch.html'">
 					<span>View Project</span>
 					</button>
-				</div></a>
+				</div>
 			</div>
 			<div class="imgWrap">
-					<a href="#fifth"><img src="img/About/preview.png" width="100%"></a>
-					<a href="#fifth">
+					<a href="#fifth"><img src="img/About/preview.png" alt="about me preview"></a>
+
 						<div class="imgTitle">
 						<button class="button button--winona button--border-thick button--round-s
-						button--text-upper button--size-s button--text-thick" data-text="About Me">
+						button--text-upper button--size-s button--text-thick"
+						data-text="About Me"
+						onclick="location.href='#fifth'">
 						<span>About Me</span>
 						</button>
-					</div></a>
+					</div>
 				</div>
 				</div>
 		</div>
@@ -205,10 +213,12 @@
 				for country selection. Our goal of this application is to change the user experience of a conventional currency converter.</p>
 			<p>Built using Angular, Three.js, IndexedDB, Sklad, HammerJS, D3.js, and Money.js</p>
 				<div class="btn">
-					<a href="globe.html"><button class="button button--winona button--border-thick button--round-s
-					button--text-upper button--size-s button--text-thick" data-text="View Project">
+				<button class="button button--winona button--border-thick button--round-s
+					button--text-upper button--size-s button--text-thick"
+					data-text="View Project"
+					onclick="location.href='globe.html'">
 						<span>View Project</span>
-					</button></a>
+					</button>
 					</div>
 
 			</div>
@@ -227,12 +237,15 @@
 
 				<p>Transform all 800 websites that is under SFU Beedie into the new SFU common look and feel (CLF guidelines).
 					</p>
-					<span class="textMiddle"><p> + </p></p>
+					<div class="textMiddle"><p> + </p></div>
 					<p>Working EXEC ED to create a new set of branding, including 11 templates, and 28 web pages.</p>
 				<div class="btn">
-					<a href="beedie.html"><button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+
+						<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick"
+						data-text="View Project"
+						onclick="location.href='beedie.html'">
 						<span>View Project</span>
-					</button></a>
+					</button>
 					</div>
 
 			</div>
@@ -247,9 +260,12 @@
 			<p>A desktop and mobile website to engage fashionista by inspiring them with combinations of fashion and Swatch watch images, allowing them to explore fashion and watch based on location and style.</p>
 				<p>It creates a seamless experience from digital to physical with emphasis on exploration, storytelling and self expression.</p>
 				<div class="btn">
-					<a href="swatch.html"><button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick" data-text="View Project">
+
+						<button class="button button--winona button--border-thick button--round-s button--text-upper button--size-s button--text-thick"
+						data-text="View Project"
+						onclick="location.href='swatch.html'">
 						<span>View Project</span>
-					</button></a>
+					</button>
 					</div>
 
 			</div>
