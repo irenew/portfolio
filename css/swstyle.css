@@ -26,6 +26,10 @@ a:hover{
   color:#eee;
 }
 
+
+p{
+  font-size:0.8em;
+}
 h1{
   padding-top:2em;
   text-transform:uppercase;
@@ -226,7 +230,7 @@ p{
 }
 
 .contentTwo{
-  margin-top:10%;
+  margin-top:15%;
   clear:both;
   height:auto;
   background:url('../img/Swatch/rightmobile_01.png');
@@ -492,6 +496,12 @@ margin:0;
     }
     .worktitle{
       display:none;
+    }
+    #infothree .projectGif{
+      width:100%;
+      height:100%;
+      padding:0;
+      text-align:center;
     }
 
 }
