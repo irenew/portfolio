@@ -75,7 +75,7 @@ p{
   position:absolute;
   top:0px;
   left:0;
-  background-color: ##52C4C0;
+  background-color: #52C4C0;
   width:100%;
   height:80px;
   color:#fff;
@@ -194,7 +194,7 @@ p{
   position:absolute;
   top:30%;
   left:0;
-  background-color: ##52C4C0;
+  background-color: #52C4C0;
   width:100%;
   height:80px;
   color:#fff;
@@ -239,12 +239,19 @@ p{
 
 }
 
+.contentTwo img{
+  width:80%;
+}
+
 #writeup{
   padding:4em;
   height:700px;
 
+}
+#writeuptwo{
+  padding:4em;
+  height:700px;
 
-  /*border-top:1px solid #fff;*/
 }
 .ita{
   font-style: italic;
@@ -263,9 +270,27 @@ p{
 }
 
 #infotwo #gif{
-  height:750px;
+  height:780px;
   padding:0;
 }
+
+#giftwo{
+  background-color:#fff;
+  height:800px;
+  color:#333;
+
+}
+
+#giftwo h1{
+  color:#333;
+}
+
+#infotwo #giftwo{
+  height:780px;
+  padding:0;
+}
+
+
 #infotwo{
   /*border-top:1px solid #fff;*/
   background-color:#79151C;
@@ -281,7 +306,11 @@ p{
 
 #infotwo #writeup{
   background-color:#79151C;
-  height:750px;
+  height:780px;
+}
+#infotwo #writeuptwo{
+  background-color:#79151C;
+  height:780px;
 }
 .grid-6{
   text-align:center;
@@ -295,7 +324,13 @@ p{
   padding-top:40%;
 }
 
+.grid-6 img{
+  width:100%;
+}
 
+button{
+  color:#fff;
+}
 
 .visible {
 float:right;
@@ -380,7 +415,7 @@ margin:0;
       padding:1em;
       border:1px solid #fff;
       color:#fff;
-      font-size:0.5m;
+      font-size:0.5em;
 
     }
     .grid-1, .grid-2, .grid-3, .grid-4, .grid-5,  .grid-7, .grid-8,
@@ -401,7 +436,17 @@ margin:0;
       color:#333;
 
     }
+    #giftwo{
+      background-color:#fff;
+      height:600px;
+      color:#333;
+
+    }
     #infotwo #gif{
+      height:600px;
+      padding:0;
+    }
+    #infotwo #giftwo{
       height:600px;
       padding:0;
     }
@@ -437,7 +482,7 @@ margin:0;
     padding:1em;
     border:1px solid #fff;
     color:#fff;
-    font-size:0.5m;
+    font-size:0.5em;
 
   }
 
@@ -460,12 +505,26 @@ margin:0;
   }
   #gif{
     background-color:#fff;
-    height:500px;
+    height:400px;
     color:#333;
 
   }
   #infotwo #gif{
-    height:500px;
+    height:400px;
+    padding:0;
+  }
+
+  p{
+    font-size:0.8em;
+  }
+  #giftwo{
+    background-color:#fff;
+    height:400px;
+    color:#333;
+
+  }
+  #infotwo #giftwo{
+    height:400px;
     padding:0;
   }
 

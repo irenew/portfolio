@@ -323,6 +323,20 @@ p{
 
 
   }
+  #gif{
+    background-color:#fff;
+    height:400px;
+    color:#333;
+
+  }
+  #infotwo #gif{
+    height:400px;
+    padding:0;
+  }
+
+  p{
+    font-size:0.8em;
+  }
 
 
 
