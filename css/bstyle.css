@@ -1,0 +1,307 @@
+body{
+  height:100%;
+  background-color:#F58F82;
+
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+a{
+  color:#fff;
+  text-decoration:none;
+}
+
+a:hover{
+  background-color:#fff;
+  color:#eee;
+}
+
+h1{
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  color:#fff;
+}
+
+p{
+  line-height:150%;
+  letter-spacing: 1px;
+  margin-top:1em;
+  font-weight:200;
+  color:#fff;
+}
+.header{
+  position:absolute;
+  top:48px;
+  left:45%;
+  margin-left:auto;
+  margin-right:auto;
+  width:10%;
+  z-index:5;
+  text-align: center;
+  vertical-align:middle;
+  /*background-color:#fff;*/
+  height:7%;
+  padding:1em;
+  border:1px solid #fff;
+  color:#fff;
+
+}
+
+
+.workcontent{
+  padding:8em 4em 2em 4em;
+  color:#fff;
+  width:90%;
+
+
+}
+
+.worktitle{
+  /*background-color:#fff;*/
+  width:100%;
+  height:30%;
+  position:absolute;
+  top:0;
+  padding:3em 0;
+
+
+
+}
+
+.worknum{
+
+  width:50%;
+  height:18%;
+  position:absolute;
+  top:0;
+  padding:3em 4em;
+
+
+}
+.worknum h1{
+  border-top:1px solid #fff;
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  color:#fff;
+
+
+
+}
+
+.worknum h2{
+
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  color:#fff;
+
+
+
+}
+
+
+
+.worktitle h1{
+  border-top:1px solid #fff;
+  padding-top:2em;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:1em;
+  text-align:right;
+  color:#fff;
+
+}
+
+
+
+.workcontent p{
+  line-height:150%;
+  letter-spacing: 1px;
+  margin-top:1em;
+  font-weight:200;
+}
+.btn{
+  margin-top:20%;
+}
+
+.btn button{
+
+  bottom:10%;
+  float:right;
+
+}
+#left2 .workcontent p{
+  color:#fff;
+}
+
+.textMiddle{
+  text-align:center;
+}
+
+
+.imgWrap{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
+.imgTitle{
+  position:absolute;
+  top:30%;
+  left:0;
+  background-color: ##52C4C0;
+  width:100%;
+  height:80px;
+  color:#fff;
+  visibility:hidden;
+  opacity:0;
+  z-index:1;
+}
+
+.imgWrap:hover .imgTitle{
+  visibility:visible;
+  opacity:1;
+}
+
+
+.projectGif{
+  width:100%;
+  height:100%;
+  padding-top:10%;
+  padding-bottom:30%;
+  text-align:center;
+}
+
+.projectGif img{
+  text-align:center;
+
+}
+.contentOne{
+  width:100%;
+  height:600px;
+  /*background: url(../img/Swatch/swatch.gif) no-repeat center center fixed;*/
+}
+
+.contentTwo{
+  margin-top:10%;
+  clear:both;
+  height:auto;
+  background:url('../img/Swatch/rightmobile_01.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#writeup{
+  padding:2em;
+  /*border-top:1px solid #fff;*/
+}
+.ita{
+  font-style: italic;
+  font-size:0.5em;
+}
+
+#gif{
+  background-color:#fff;
+  padding:1em;
+  color:#333;
+
+}
+
+#gif h1{
+  color:#333;
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    #descp{
+      display:none;
+    }
+
+    .header{
+      position:absolute;
+      top:3px;
+      left:40%;
+      width:18%;
+      z-index:5;
+      text-align: center;
+      vertical-align:middle;
+      height:7%;
+      padding:1em;
+      border:1px solid #fff;
+      color:#fff;
+      font-size:0.5m;
+
+    }
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+    .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
+    .grid-16, .grid-17, .grid-18{
+      width:100%;
+    }
+    .projectGif{
+      width:100%;
+      height:100%;
+      padding-top:5%;
+      padding-bottom:5%;
+    }
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+
+  .header{
+    position:absolute;
+    top:3px;
+    left:40%;
+
+    width:18%;
+    z-index:5;
+    text-align: center;
+    vertical-align:middle;
+
+    height:7%;
+    padding:1em;
+    border:1px solid #fff;
+    color:#fff;
+    font-size:0.5m;
+
+  }
+
+  .worktitle{
+
+    width:100%;
+    height:20%;
+    position:absolute;
+    top:0;
+    padding:3em 0;
+
+
+
+  }
+
+
+
+}

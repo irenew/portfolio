@@ -211,15 +211,18 @@ p{
 
 #writeup{
   padding:2em;
-  border-top:1px solid #fff;
+  /*border-top:1px solid #fff;*/
 }
 .ita{
   font-style: italic;
   font-size:0.5em;
-  padding-bottom:2em;
-  margin-bottom:2em;
+
 }
 
+#smallDetails{
+
+  margin-bottom:2em;
+}
 #gif{
   background-color:#fff;
   padding:1em;

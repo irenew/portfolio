@@ -189,7 +189,7 @@ p{
 
 .projectGif img{
   text-align:center;
-  
+
 }
 .contentOne{
   width:100%;
@@ -211,7 +211,7 @@ p{
 
 #writeup{
   padding:2em;
-  border-top:1px solid #fff;
+  /*border-top:1px solid #fff;*/
 }
 .ita{
   font-style: italic;
