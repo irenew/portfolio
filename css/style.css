@@ -499,5 +499,8 @@ margin:0;
   padding-bottom:10px;
   padding-left:10px;
   }
+  .hidephone{
+    display:none;
+  }
 
 }
